@@ -16,11 +16,11 @@ ep_rewards = [-200]
 
 #  Stats settings
 AGGREGATE_STATS_EVERY = 50  # episodes
-SHOW_PREVIEW = True
+# SHOW_PREVIEW = True
 
 # Exploration settings
-# epsilon = 1  # not a constant, going to be decayed
-epsilon = 0.00
+epsilon = 1  # not a constant, going to be decayed
+# epsilon = 0.00
 EPSILON_DECAY = 0.99975
 MIN_EPSILON = 0.001
 
